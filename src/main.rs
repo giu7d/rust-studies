@@ -1,31 +1,18 @@
-mod arrays;
-mod cli_args;
-mod conditions;
-mod enums;
-mod functions;
-mod loops;
-mod pointers;
-mod print;
-mod strings;
-mod structs;
-mod tupples;
-mod types;
-mod variables;
-mod vectors;
+mod basics;
 
 fn main() {
-    print::run();
-    variables::run();
-    types::run();
-    strings::run();
-    tupples::run();
-    arrays::run();
-    vectors::run();
-    conditions::run();
-    loops::run();
-    functions::run();
-    pointers::run();
-    structs::run();
-    enums::run();
-    cli_args::run();
+    basics::print::run();
+    basics::variables::run();
+    basics::types::run();
+    basics::strings::run();
+    basics::tupples::run();
+    basics::arrays::run();
+    basics::vectors::run();
+    basics::conditions::run();
+    basics::loops::run();
+    basics::functions::run();
+    basics::pointers::run();
+    basics::structs::run();
+    basics::enums::run();
+    basics::cli_args::run();
 }
