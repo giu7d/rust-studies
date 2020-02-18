@@ -1,14 +1,31 @@
-pub mod arrays;
-pub mod cli_args;
-pub mod conditions;
-pub mod enums;
-pub mod functions;
-pub mod loops;
-pub mod pointers;
-pub mod print;
-pub mod strings;
-pub mod structs;
-pub mod tupples;
-pub mod types;
-pub mod variables;
-pub mod vectors;
+mod arrays;
+mod cli_args;
+mod conditions;
+mod enums;
+mod functions;
+mod loops;
+mod pointers;
+mod print;
+mod strings;
+mod structs;
+mod tupples;
+mod types;
+mod variables;
+mod vectors;
+
+pub fn run() {
+  print::run();
+  variables::run();
+  types::run();
+  strings::run();
+  tupples::run();
+  arrays::run();
+  vectors::run();
+  conditions::run();
+  loops::run();
+  functions::run();
+  pointers::run();
+  structs::run();
+  enums::run();
+  cli_args::run();
+}
